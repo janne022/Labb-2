@@ -15,7 +15,6 @@ bool startGame()
     Console.WriteLine("Välkommen! Jag tänker på ett nummer. Kan du gissa vilket? Du får fem försök");
     Random random = new Random();
     int correctNumber = random.Next(1, 20);
-    Console.WriteLine(correctNumber);
     int timesGuessed = 0;
     do
     {

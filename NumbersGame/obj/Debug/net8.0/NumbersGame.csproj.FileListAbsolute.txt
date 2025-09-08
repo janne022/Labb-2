@@ -1,0 +1,15 @@
+C:\Users\janni\Documents\Chasacademy Programming\Labb 2\NumbersGame\bin\Debug\net8.0\NumbersGame.exe
+C:\Users\janni\Documents\Chasacademy Programming\Labb 2\NumbersGame\bin\Debug\net8.0\NumbersGame.deps.json
+C:\Users\janni\Documents\Chasacademy Programming\Labb 2\NumbersGame\bin\Debug\net8.0\NumbersGame.runtimeconfig.json
+C:\Users\janni\Documents\Chasacademy Programming\Labb 2\NumbersGame\bin\Debug\net8.0\NumbersGame.dll
+C:\Users\janni\Documents\Chasacademy Programming\Labb 2\NumbersGame\bin\Debug\net8.0\NumbersGame.pdb
+C:\Users\janni\Documents\Chasacademy Programming\Labb 2\NumbersGame\obj\Debug\net8.0\NumbersGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\janni\Documents\Chasacademy Programming\Labb 2\NumbersGame\obj\Debug\net8.0\NumbersGame.AssemblyInfoInputs.cache
+C:\Users\janni\Documents\Chasacademy Programming\Labb 2\NumbersGame\obj\Debug\net8.0\NumbersGame.AssemblyInfo.cs
+C:\Users\janni\Documents\Chasacademy Programming\Labb 2\NumbersGame\obj\Debug\net8.0\NumbersGame.csproj.CoreCompileInputs.cache
+C:\Users\janni\Documents\Chasacademy Programming\Labb 2\NumbersGame\obj\Debug\net8.0\NumbersGame.sourcelink.json
+C:\Users\janni\Documents\Chasacademy Programming\Labb 2\NumbersGame\obj\Debug\net8.0\NumbersGame.dll
+C:\Users\janni\Documents\Chasacademy Programming\Labb 2\NumbersGame\obj\Debug\net8.0\refint\NumbersGame.dll
+C:\Users\janni\Documents\Chasacademy Programming\Labb 2\NumbersGame\obj\Debug\net8.0\NumbersGame.pdb
+C:\Users\janni\Documents\Chasacademy Programming\Labb 2\NumbersGame\obj\Debug\net8.0\NumbersGame.genruntimeconfig.cache
+C:\Users\janni\Documents\Chasacademy Programming\Labb 2\NumbersGame\obj\Debug\net8.0\ref\NumbersGame.dll
