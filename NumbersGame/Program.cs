@@ -32,7 +32,7 @@ namespace NumbersGame
         private static bool StartGame()
         {
             // Declare variables. numberRange uses LINQ to filter an array of ints to an array of strings
-            string[] numberRange = Enumerable.Range(2, 59).Select(n => n.ToString()).ToArray();
+            string[] numberRange = Enumerable.Range(2, 99).Select(n => n.ToString()).ToArray();
             string[] responsesHigh = ["Tyvärr, du gissade för högt!", "Haha! Det var för högt!", "Bra gissat, men det var för högt"];
             string[] responsesLow = ["Tyvärr, du gissade för lågt!", "Haha! Det var för lågt!", "Bra gissat, men det var för lågt"];
             int timesGuessed = 0;
