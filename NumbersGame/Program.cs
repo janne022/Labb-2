@@ -16,7 +16,7 @@ bool startGame()
     // Generate a random number between 1 and 20
     Console.WriteLine("Välkommen! Jag tänker på ett nummer. Kan du gissa vilket? Du får fem försök");
     Random random = new Random();
-    int correctNumber = random.Next(1, 20);
+    int correctNumber = random.Next(1, 21);
     int timesGuessed = 0;
     do
     {

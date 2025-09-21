@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\janni\\Documents\\Chasacademy Programming\\Labb 2\\NumbersGame\\NumbersGame.csproj",
+      "projectUniqueName": "C:\\Users\\janni\\Chas Programming\\Labb-2\\NumbersGame\\NumbersGame.csproj",
       "projectName": "NumbersGame",
-      "projectPath": "C:\\Users\\janni\\Documents\\Chasacademy Programming\\Labb 2\\NumbersGame\\NumbersGame.csproj",
+      "projectPath": "C:\\Users\\janni\\Chas Programming\\Labb-2\\NumbersGame\\NumbersGame.csproj",
       "packagesPath": "C:\\Users\\janni\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\janni\\Documents\\Chasacademy Programming\\Labb 2\\NumbersGame\\obj\\",
+      "outputPath": "C:\\Users\\janni\\Chas Programming\\Labb-2\\NumbersGame\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -73,7 +73,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
