@@ -7,6 +7,7 @@ namespace NumbersGame
         {
             // Start the game, get bool for if user won or not
             bool isUserWinner = startGame();
+
             // Print the result
             if (isUserWinner)
             {
@@ -43,11 +44,27 @@ namespace NumbersGame
                     }
                     else if (guess < correctNumber)
                     {
-                        Console.WriteLine(responsesLow[random.Next(0, responsesLow.Length)]);
+                        // If guess it within 2 of correct number it prints "Det bränns!", else random response
+                        if (correctNumber - guess < 2)
+                        {
+                            Console.WriteLine("Det bränns!");
+                        }
+                        else
+                        {
+                            Console.WriteLine(responsesLow[random.Next(0, responsesLow.Length)]);
+                        }
                     }
                     else if (guess > correctNumber)
                     {
-                        Console.WriteLine(responsesHigh[random.Next(0, responsesHigh.Length)]);
+                        // If guess it within 2 of correct number it prints "Det bränns!", else random response
+                        if (guess - correctNumber < 2)
+                        {
+                            Console.WriteLine("Det bränns!");
+                        }
+                        else
+                        {
+                            Console.WriteLine(responsesHigh[random.Next(0, responsesHigh.Length)]);
+                        }
                     }
                     timesGuessed++;
                 } while (timesGuessed < roundAmount);
