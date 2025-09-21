@@ -189,10 +189,12 @@ namespace NumbersGame
                     else if (!success)
                     {
                         Console.WriteLine("You must provide a real number!");
+                        Thread.Sleep(1500);
                     }
                     else
                     {
                         Console.WriteLine("That number is outside of the allowed range");
+                        Thread.Sleep(1500);
                     }
                 }
             }
