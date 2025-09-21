@@ -40,7 +40,8 @@ namespace NumbersGame
             int correctNumber = random.Next(1, 21);
 
             // Generate a random number that user decides
-            Console.WriteLine("Välkommen! Jag tänker på ett nummer. Kan du gissa vilket? Du får fem försök");
+            Console.WriteLine("Välkommen! Jag tänker på ett nummer. Kan du gissa vilket? Du får fem försök. Klicka på Enter för att fortsätta.");
+            Console.ReadLine();
             // Get roundAmount via slider. Could probably be improved by having its own method for ints
             int roundAmount = Menu.ReadSlider("Hur många tal vill du gissa på?", numberRange);
 
