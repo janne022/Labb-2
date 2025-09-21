@@ -79,7 +79,7 @@ namespace NumbersGame
                 }
                 timesGuessed++;
                 Thread.Sleep(2000);
-            } while (timesGuessed < roundAmount);
+            } while (timesGuessed < 5);
             return false;
         }
     }
