@@ -6,7 +6,7 @@ namespace NumbersGame
     {
         private static void Main(string[] args)
         {
-            bool isPlayAgain = false;
+            bool isPlayAgain = true;
             while (isPlayAgain)
             {
                 // Start the game, get bool for if user won or not
@@ -21,7 +21,8 @@ namespace NumbersGame
                 {
                     Console.WriteLine("Tyvärr, du lyckades inte gissa talet på fem försök!");
                 }
-
+                Console.WriteLine("Tryck på valfri knapp för att fortsätta...");
+                Console.ReadLine();
                 // Check if user wants to play again. For future refrence the help method could be changed to return a bool instead for this enum
                 bool playAgain = Menu.ReadBoolOption("Vill du köra igen?", ["Ja", "Nej"]);
                 isPlayAgain = playAgain;
@@ -77,6 +78,7 @@ namespace NumbersGame
                     }
                 }
                 timesGuessed++;
+                Thread.Sleep(2000);
             } while (timesGuessed < roundAmount);
             return false;
         }
