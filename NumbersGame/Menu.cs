@@ -11,7 +11,7 @@ namespace NumbersGame
     // This is a collection of helper methods designed to get inputs from user in various ways
     internal static class Menu
     {
-        // Helper method to show alternatives that can be selected with arrow keys and enter
+        // Helper method to show alternatives that can be selected with arrow keys and enter, made for enum
         public static T ReadOption<T>(string questionText, string[] menuOptions) where T : Enum
         {
             int i = 0;
@@ -45,7 +45,7 @@ namespace NumbersGame
         }
 
         // Helper method to show alternatives that can be selected with arrow keys and enter, made for int
-        public static int ReadOption(string questionText, string[] menuOptions)
+        public static int ReadIntOption(string questionText, string[] menuOptions)
         {
             int i = 0;
             while (true)
@@ -72,6 +72,46 @@ namespace NumbersGame
                     case ConsoleKey.Enter:
                         // returns index as int
                         return i;
+
+                }
+            }
+        }
+
+        // Helper method to show alternatives that can be selected with arrow keys and enter, made for bool
+        public static bool ReadBoolOption(string questionText, string[] menuOptions)
+        {
+            int i = 0;
+            while (true)
+            {
+                Console.Clear();
+                Console.WriteLine(questionText + "\n");
+                for (int j = 0; j < menuOptions.Length; j++)
+                {
+                    Console.BackgroundColor = i == j ? ConsoleColor.White : ConsoleColor.Black;
+                    Console.ForegroundColor = i == j ? ConsoleColor.Black : ConsoleColor.White;
+                    Console.WriteLine(menuOptions[j]);
+                    Console.BackgroundColor = ConsoleColor.Black;
+                    Console.ForegroundColor = ConsoleColor.White;
+                }
+                ConsoleKey key = Console.ReadKey().Key;
+                switch (key)
+                {
+                    case ConsoleKey.DownArrow:
+                        if (i < menuOptions.Length - 1) i++;
+                        break;
+                    case ConsoleKey.UpArrow:
+                        if (i > 0) i--;
+                        break;
+                    case ConsoleKey.Enter:
+                        // returns true or false depending on first or second index
+                        if (i == 0)
+                        {
+                            return true;
+                        }
+                        else
+                        {
+                            return false;
+                        }
 
                 }
             }
